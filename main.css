@@ -31,7 +31,9 @@
     .overlay>figure {
         margin: 0;
         padding: 1rem;
-        border: 2px solid white;
+        margin: 1rem;
+        border: 2px solid #AA0000;
+        border-radius: 10px;
     }
     .overlay>figure>img {
         max-width: 100%;
