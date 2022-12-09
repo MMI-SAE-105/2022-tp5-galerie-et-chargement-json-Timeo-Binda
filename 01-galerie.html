@@ -14,7 +14,10 @@
 }">
     <h1>Galerie</h1>
     <p>lorem⇥</p>
-    <div class="overlay">
+    <div class="overlay"
+    x-show="imageEnGrand"
+    @click="imageEnGrand = null"
+    @keyup.escape.window="imageEnGrand = null">
         <figure><img :src="imageEnGrand" alt="image 237... un chiot"></figure>
     </div>
 </body>
